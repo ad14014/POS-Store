@@ -1,0 +1,149 @@
+[{
+  "_id": {
+    "$oid": "689cae5f3372eb2fc8dbe524"
+  },
+  "product_id": {
+    "$oid": "689ca792c658dfddf66727d3"
+  },
+  "variant_name": "I phone 6",
+  "variant_value": "Black",
+  "sku": "string",
+  "price": 2500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689caefa3372eb2fc8dbe527"
+  },
+  "product_id": {
+    "$oid": "689ca792c658dfddf66727d9"
+  },
+  "variant_name": "Pant shit",
+  "variant_value": "Black",
+  "sku": "string",
+  "price": 5500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689caf3f3372eb2fc8dbe52a"
+  },
+  "product_id": {
+    "$oid": "689ca792c658dfddf66727d3"
+  },
+  "variant_name": "Pant shit",
+  "variant_value": "Black",
+  "sku": "string",
+  "price": 1500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689caf8b3372eb2fc8dbe52d"
+  },
+  "product_id": {
+    "$oid": "689ca792c658dfddf66727da"
+  },
+  "variant_name": "Color",
+  "variant_value": "Black",
+  "sku": "string",
+  "price": 15000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689caf993372eb2fc8dbe530"
+  },
+  "product_id": {
+    "$oid": "689ca792c658dfddf66727d2"
+  },
+  "variant_name": "Color",
+  "variant_value": "Black",
+  "sku": "string",
+  "price": 15000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689cb0244b833aa0e86d0486"
+  },
+  "product_id": {
+    "$oid": "689ca792c658dfddf66727d4"
+  },
+  "variant_name": "Color",
+  "variant_value": "Black",
+  "sku": "string",
+  "price": 3000,
+  "refundable": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5e373acea109d754dbd1e"
+  },
+  "product_id": {
+    "$oid": "68a5e373acea109d754dbd1c"
+  },
+  "variant_name": "Medium",
+  "variant_value": "black",
+  "sku": "PANT2203",
+  "price": 1200,
+  "refundable": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5e38ef20cddb7a28e8ad2"
+  },
+  "product_id": {
+    "$oid": "68a5e38ef20cddb7a28e8ad0"
+  },
+  "variant_name": "Medium",
+  "variant_value": "black",
+  "sku": "PANT2203",
+  "price": 1200,
+  "refundable": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5e3a2f20cddb7a28e8ad9"
+  },
+  "product_id": {
+    "$oid": "68a5e3a2f20cddb7a28e8ad7"
+  },
+  "variant_name": "Medium",
+  "variant_value": "black",
+  "sku": "PANT2203",
+  "price": 1200,
+  "refundable": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5e3aef20cddb7a28e8ae0"
+  },
+  "product_id": {
+    "$oid": "68a5e3aef20cddb7a28e8ade"
+  },
+  "variant_name": "Medium",
+  "variant_value": "black",
+  "sku": "PANT2203",
+  "price": 1200,
+  "refundable": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5eca9f20cddb7a28e8ae9"
+  },
+  "product_id": {
+    "$oid": "68a5eca9f20cddb7a28e8ae7"
+  },
+  "variant_name": "Medium",
+  "variant_value": "black",
+  "sku": "PANT2203",
+  "price": 1200,
+  "refundable": false,
+  "__v": 0
+}]

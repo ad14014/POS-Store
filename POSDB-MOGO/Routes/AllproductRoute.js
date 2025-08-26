@@ -1,0 +1,10 @@
+const express=require('express')
+const route=express.Router()
+const Auth=require('../Middlewares/AuthMiddleware.js')
+const Allproductcontroller=require('../Controllers/Allproduct.js')
+route.get('/getAll',Auth,Allproductcontroller.GetAllproduct)
+route.delete('/delete/:id',Auth,Allproductcontroller.DeleteProducts)
+route.put('/update/:id',Auth,Allproductcontroller.UpdateProduct)
+route.get('/single/:id',Auth,Allproductcontroller.SingleProduct)
+route.post('/create',Auth,Allproductcontroller.CreateProduct)
+module.exports=route

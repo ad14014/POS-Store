@@ -1,0 +1,284 @@
+[{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727d2"
+  },
+  "productId": 2,
+  "productName": "Formal",
+  "sku": "string",
+  "description": "I have a good Product",
+  "createdAt": {
+    "$date": "2025-08-13T00:00:00.000Z"
+  },
+  "category": {
+    "id": 2,
+    "name": "Cotton",
+    "description": "I have a good Product",
+    "parentId": null
+  },
+  "updatedAt": {
+    "$date": "2025-08-13T00:00:00.000Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c566"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727d3"
+  },
+  "productId": 3,
+  "productName": "Coat Pant",
+  "sku": "string",
+  "description": "I have a good Product",
+  "createdAt": {
+    "$date": "2025-07-21T08:23:59.723Z"
+  },
+  "category": {
+    "id": 3,
+    "name": "Cloth",
+    "description": "I have a good Product",
+    "parentId": {
+      "id": 2,
+      "name": "Cotton",
+      "description": "I have a good Product",
+      "parentId": null
+    }
+  },
+  "updatedAt": "2025-08-04T13:11:54.41474",
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c567"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727d4"
+  },
+  "productId": 4,
+  "productName": "I phone 12",
+  "sku": "string",
+  "description": "string",
+  "createdAt": {
+    "$date": "2025-07-28T11:01:25.225Z"
+  },
+  "category": {
+    "id": 6,
+    "name": "I phone",
+    "description": "string",
+    "parentId": {
+      "id": 5,
+      "name": "Electronics",
+      "description": "I have a Good ELECTRONICS",
+      "parentId": null
+    }
+  },
+  "updatedAt": {
+    "$date": "2025-08-13T00:00:00.000Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c56a"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727d5"
+  },
+  "productId": 5,
+  "productName": "I phone 13",
+  "sku": "string",
+  "description": "string",
+  "createdAt": {
+    "$date": "2025-07-28T11:05:49.113Z"
+  },
+  "category": {
+    "id": 6,
+    "name": "I phone",
+    "description": "string",
+    "parentId": {
+      "id": 5,
+      "name": "Electronics",
+      "description": "I have a Good ELECTRONICS",
+      "parentId": null
+    }
+  },
+  "updatedAt": {
+    "$date": "2025-08-13T11:05:49.113Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c56a"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727d6"
+  },
+  "productId": 6,
+  "productName": "Pulse",
+  "sku": "string",
+  "description": "I have a good Product",
+  "createdAt": {
+    "$date": "2025-07-30T07:24:10.749Z"
+  },
+  "category": {
+    "id": 8,
+    "name": "GROCERY",
+    "description": "I have a good Product",
+    "parentId": null
+  },
+  "updatedAt": {
+    "$date": "2025-08-04T07:52:06.314Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c56c"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727d7"
+  },
+  "productId": 7,
+  "productName": "Sujji",
+  "sku": "string",
+  "description": "I have a good Product",
+  "createdAt": {
+    "$date": "2025-07-30T07:34:16.836Z"
+  },
+  "category": {
+    "id": 9,
+    "name": "Sujji",
+    "description": "I have a good Product",
+    "parentId": {
+      "id": 8,
+      "name": "GROCERY",
+      "description": "I have a good Product",
+      "parentId": null
+    }
+  },
+  "updatedAt": {
+    "$date": "2025-07-30T07:34:16.836Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c56c"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727d8"
+  },
+  "productId": 8,
+  "productName": "Bisscut",
+  "sku": "string",
+  "description": "string",
+  "createdAt": {
+    "$date": "2025-08-06T07:50:32.762Z"
+  },
+  "category": {
+    "id": 11,
+    "name": "Bisscute",
+    "description": "string",
+    "parentId": {
+      "id": 10,
+      "name": "SNACKS",
+      "description": "string",
+      "parentId": null
+    }
+  },
+  "updatedAt": "2025-08-06T14:36:30.563732",
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c56e"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727d9"
+  },
+  "productId": 9,
+  "productName": "toast",
+  "sku": "sde",
+  "description": "I have a good Product",
+  "createdAt": {
+    "$date": "2025-08-06T10:01:11.387Z"
+  },
+  "category": {
+    "id": 10,
+    "name": "SNACKS",
+    "description": "string",
+    "parentId": null
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T10:01:11.387Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c56e"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727da"
+  },
+  "productId": 10,
+  "productName": "coca cola",
+  "sku": "string",
+  "description": "I have a good Product",
+  "createdAt": {
+    "$date": "2025-08-06T10:13:04.225Z"
+  },
+  "category": {
+    "id": 12,
+    "name": "Cold drink",
+    "description": "this is a description",
+    "parentId": {
+      "id": 10,
+      "name": "SNACKS",
+      "description": "string",
+      "parentId": null
+    }
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T10:13:04.225Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c570"
+  }
+},
+{
+  "_id": {
+    "$oid": "689ca792c658dfddf66727db"
+  },
+  "productId": 11,
+  "productName": "Gents Pant",
+  "sku": "Te1243",
+  "description": "Good quality febric",
+  "createdAt": {
+    "$date": "2025-08-12T08:11:37.848Z"
+  },
+  "category": {
+    "id": 1,
+    "name": "Electronic",
+    "description": "I have a good Product",
+    "parentId": null
+  },
+  "updatedAt": {
+    "$date": "2025-08-13T08:11:37.848Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c567"
+  }
+},
+{
+  "_id": {
+    "$oid": "689caa01e2c808850a1974fb"
+  },
+  "productName": "Gents Pant",
+  "sku": "PANT2203",
+  "description": "Excellent quality of cloths for gents pants",
+  "createdAt": {
+    "$date": "2025-08-14T15:06:41.773Z"
+  },
+  "categoryId": {
+    "$oid": "689b1033baf0fbeae3d4c567"
+  },
+  "updatedAt": {
+    "$date": "2025-08-13T15:06:41.773Z"
+  },
+  "__v": 0
+}]
